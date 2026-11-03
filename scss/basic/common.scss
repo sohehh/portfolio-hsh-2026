@@ -4,8 +4,10 @@
   inset: 0;
   background: #000000d4;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   z-index: 9999;
   opacity: 1;
   visibility: visible;
@@ -22,6 +24,9 @@
   &.hidden {
     opacity: 0;
     visibility: hidden;
+  }
+  p {
+    text-align: center;
   }
 }
 
