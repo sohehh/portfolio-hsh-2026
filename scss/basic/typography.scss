@@ -62,12 +62,27 @@
   font-size: 4vw;
 }
 .fs-250 {
-  font-size: clamp(56px, 13.125vw, 250px);
+  font-size: clamp(56px, 10vw, 210px);
 }
 .fs-72 {
   // font-size: clamp(40px, 3.75vw, 72px);
   // 260515 수정
   font-size: clamp(32px, 3.75vw, 72px);
+  // font-size: 72px;
+  // @media all and (max-width:1440px) {
+  //   font-size: 64px;
+  // }
+  // @media all and (max-width:1024px) {
+  //   font-size: 56px;
+  // }
+  // @media all and (max-width:768px) {
+  //   font-size: 40px;
+  // }
+}
+.fs-50 {
+  // font-size: clamp(40px, 3.75vw, 72px);
+  // 260515 수정
+  font-size: clamp(26px, 2.6vw, 50px);
   // font-size: 72px;
   // @media all and (max-width:1440px) {
   //   font-size: 64px;

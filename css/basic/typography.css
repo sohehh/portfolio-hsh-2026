@@ -69,11 +69,15 @@
 }
 
 .fs-250 {
-  font-size: clamp(56px, 13.125vw, 250px);
+  font-size: clamp(56px, 10vw, 210px);
 }
 
 .fs-72 {
   font-size: clamp(32px, 3.75vw, 72px);
+}
+
+.fs-50 {
+  font-size: clamp(26px, 2.6vw, 50px);
 }
 
 .fs-40 {
